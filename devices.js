@@ -7618,7 +7618,7 @@ const devices = [
         vendor: 'Leedarson',
         description: 'Motion sensor',
         supports: 'occupancy, illuminance',
-        fromZigbee: [fz.ias_occupancy_alarm_1, fz.illuminance, fz.ignore_occupancy_report],
+        fromZigbee: [fz.occupancy, fz.illuminance, fz.ignore_occupancy_report],
         toZigbee: [],
     },
 
