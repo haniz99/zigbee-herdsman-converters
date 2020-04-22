@@ -9283,7 +9283,14 @@ const devices = [
         description: 'FLAIR Viyu Smarte LED bulb RGB E27',
         extend: generic.light_onoff_brightness_colortemp_colorxy,
     },
-
+	{
+        zigbeeModel: ['VIYU-A60-806-CCT-10011723'],
+        model: '10011723',
+        vendor: 'HORNBACH',
+        description: 'FLAIR Viyu Smart LED bulb E27',
+        extend: generic.light_onoff_brightness_colortemp,
+    },
+    
     // Alecto
     // {
     //     zigbeeModel: ['RH3001'],
